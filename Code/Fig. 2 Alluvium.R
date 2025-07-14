@@ -5,6 +5,7 @@ library(ggtext)
 library(ggrepel)
 library(here)
 library(dplyr)
+library(readxl)
 setwd<-here()
 
 df <-read_excel("Data/Table 1.xlsx")
