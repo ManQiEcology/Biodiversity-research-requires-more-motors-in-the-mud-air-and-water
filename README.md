@@ -3,3 +3,6 @@ This repository include all data and code for the paper "Biodiversity research r
 
 ## License
 This repository’s contents are licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/), unless otherwise specified.
+
+- Code is provided for academic use only.
+- Commercial use requires written permission from the authors.
