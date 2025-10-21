@@ -1,0 +1,131 @@
+"","Platform","Ecosystem","Payload","Freq","Percentage (%)"
+"7","Drifter","Deltas/Estuaries/Mangroves","GPS tracking system",1,0.0771010023130301
+"8","Drone","Deltas/Estuaries/Mangroves","GPS tracking system",1,0.0771010023130301
+"20","Drone","Forests","GPS tracking system",4,0.30840400925212
+"26","Drone","Lakes","GPS tracking system",1,0.0771010023130301
+"30","ROVs/AUVs","Lakes","GPS tracking system",1,0.0771010023130301
+"31","Drifter","Marine","GPS tracking system",3,0.23130300693909
+"32","Drone","Marine","GPS tracking system",2,0.15420200462606
+"44","Drone","Shrub_Grasslands","GPS tracking system",1,0.0771010023130301
+"62","Drone","Deltas/Estuaries/Mangroves","Hyperspectral",9,0.693909020817271
+"74","Drone","Forests","Hyperspectral",15,1.15651503469545
+"80","Drone","Lakes","Hyperspectral",1,0.0771010023130301
+"86","Drone","Marine","Hyperspectral",4,0.30840400925212
+"88","Other","Marine","Hyperspectral",1,0.0771010023130301
+"90","ROVs/AUVs","Marine","Hyperspectral",1,0.0771010023130301
+"92","Drone","Rivers/Streams","Hyperspectral",5,0.38550501156515
+"98","Drone","Shrub_Grasslands","Hyperspectral",13,1.00231303006939
+"116","Drone","Deltas/Estuaries/Mangroves","LiDAR",9,0.693909020817271
+"128","Drone","Forests","LiDAR",42,3.23824209714726
+"140","Drone","Marine","LiDAR",2,0.15420200462606
+"144","ROVs/AUVs","Marine","LiDAR",2,0.15420200462606
+"146","Drone","Rivers/Streams","LiDAR",3,0.23130300693909
+"152","Drone","Shrub_Grasslands","LiDAR",12,0.925212027756361
+"194","Drone","Marine","Logger",2,0.15420200462606
+"218","Drone","Coral reefs","Multispectral",1,0.0771010023130301
+"222","ROVs/AUVs","Coral reefs","Multispectral",1,0.0771010023130301
+"224","Drone","Deltas/Estuaries/Mangroves","Multispectral",27,2.08172706245181
+"230","Drone","Deserts","Multispectral",2,0.15420200462606
+"236","Drone","Forests","Multispectral",33,2.54433307632999
+"242","Drone","Lakes","Multispectral",12,0.925212027756361
+"245","Biorobot","Lakes","Multispectral",1,0.0771010023130301
+"247","Drifter","Marine","Multispectral",1,0.0771010023130301
+"248","Drone","Marine","Multispectral",11,0.848111025443331
+"252","ROVs/AUVs","Marine","Multispectral",3,0.23130300693909
+"254","Drone","Rivers/Streams","Multispectral",16,1.23361603700848
+"256","Other","Rivers/Streams","Multispectral",1,0.0771010023130301
+"257","Biorobot","Rivers/Streams","Multispectral",2,0.15420200462606
+"260","Drone","Shrub_Grasslands","Multispectral",33,2.54433307632999
+"278","Drone","Deltas/Estuaries/Mangroves","Near-infrared/Thermal infrared",7,0.53970701619121
+"284","Drone","Deserts","Near-infrared/Thermal infrared",1,0.0771010023130301
+"290","Drone","Forests","Near-infrared/Thermal infrared",19,1.46491904394757
+"296","Drone","Lakes","Near-infrared/Thermal infrared",3,0.23130300693909
+"302","Drone","Marine","Near-infrared/Thermal infrared",3,0.23130300693909
+"308","Drone","Rivers/Streams","Near-infrared/Thermal infrared",7,0.53970701619121
+"314","Drone","Shrub_Grasslands","Near-infrared/Thermal infrared",13,1.00231303006939
+"320","Drone","Urban","Near-infrared/Thermal infrared",1,0.0771010023130301
+"336","ROVs/AUVs","Deltas/Estuaries/Mangroves","Other",1,0.0771010023130301
+"341","Biorobot","Deserts","Other",1,0.0771010023130301
+"344","Drone","Forests","Other",4,0.30840400925212
+"350","Drone","Lakes","Other",5,0.38550501156515
+"353","Biorobot","Lakes","Other",1,0.0771010023130301
+"355","Drifter","Marine","Other",2,0.15420200462606
+"356","Drone","Marine","Other",3,0.23130300693909
+"359","Biorobot","Marine","Other",1,0.0771010023130301
+"360","ROVs/AUVs","Marine","Other",4,0.30840400925212
+"362","Drone","Rivers/Streams","Other",2,0.15420200462606
+"364","Other","Rivers/Streams","Other",1,0.0771010023130301
+"365","Biorobot","Rivers/Streams","Other",2,0.15420200462606
+"368","Drone","Shrub_Grasslands","Other",3,0.23130300693909
+"384","ROVs/AUVs","Coral reefs","Physical/Chemical sensors",2,0.15420200462606
+"385","Drifter","Deltas/Estuaries/Mangroves","Physical/Chemical sensors",1,0.0771010023130301
+"386","Drone","Deltas/Estuaries/Mangroves","Physical/Chemical sensors",1,0.0771010023130301
+"387","Glider","Deltas/Estuaries/Mangroves","Physical/Chemical sensors",5,0.38550501156515
+"390","ROVs/AUVs","Deltas/Estuaries/Mangroves","Physical/Chemical sensors",6,0.46260601387818
+"398","Drone","Forests","Physical/Chemical sensors",4,0.30840400925212
+"404","Drone","Lakes","Physical/Chemical sensors",3,0.23130300693909
+"405","Glider","Lakes","Physical/Chemical sensors",2,0.15420200462606
+"407","Biorobot","Lakes","Physical/Chemical sensors",2,0.15420200462606
+"408","ROVs/AUVs","Lakes","Physical/Chemical sensors",2,0.15420200462606
+"409","Drifter","Marine","Physical/Chemical sensors",6,0.46260601387818
+"410","Drone","Marine","Physical/Chemical sensors",2,0.15420200462606
+"411","Glider","Marine","Physical/Chemical sensors",30,2.3130300693909
+"412","Other","Marine","Physical/Chemical sensors",1,0.0771010023130301
+"413","Biorobot","Marine","Physical/Chemical sensors",1,0.0771010023130301
+"414","ROVs/AUVs","Marine","Physical/Chemical sensors",24,1.85042405551272
+"416","Drone","Rivers/Streams","Physical/Chemical sensors",2,0.15420200462606
+"417","Glider","Rivers/Streams","Physical/Chemical sensors",1,0.0771010023130301
+"418","Other","Rivers/Streams","Physical/Chemical sensors",1,0.0771010023130301
+"419","Biorobot","Rivers/Streams","Physical/Chemical sensors",2,0.15420200462606
+"420","ROVs/AUVs","Rivers/Streams","Physical/Chemical sensors",2,0.15420200462606
+"422","Drone","Shrub_Grasslands","Physical/Chemical sensors",1,0.0771010023130301
+"423","Glider","Shrub_Grasslands","Physical/Chemical sensors",1,0.0771010023130301
+"425","Biorobot","Shrub_Grasslands","Physical/Chemical sensors",1,0.0771010023130301
+"434","Drone","Coral reefs","RGB",5,0.38550501156515
+"436","Other","Coral reefs","RGB",1,0.0771010023130301
+"438","ROVs/AUVs","Coral reefs","RGB",7,0.53970701619121
+"440","Drone","Deltas/Estuaries/Mangroves","RGB",112,8.63531225905937
+"442","Other","Deltas/Estuaries/Mangroves","RGB",3,0.23130300693909
+"443","Biorobot","Deltas/Estuaries/Mangroves","RGB",1,0.0771010023130301
+"444","ROVs/AUVs","Deltas/Estuaries/Mangroves","RGB",6,0.46260601387818
+"446","Drone","Deserts","RGB",5,0.38550501156515
+"449","Biorobot","Deserts","RGB",1,0.0771010023130301
+"452","Drone","Forests","RGB",145,11.1796453353894
+"456","ROVs/AUVs","Forests","RGB",1,0.0771010023130301
+"458","Drone","Lakes","RGB",31,2.39013107170393
+"460","Other","Lakes","RGB",1,0.0771010023130301
+"461","Biorobot","Lakes","RGB",1,0.0771010023130301
+"462","ROVs/AUVs","Lakes","RGB",1,0.0771010023130301
+"463","Drifter","Marine","RGB",1,0.0771010023130301
+"464","Drone","Marine","RGB",51,3.93215111796453
+"466","Other","Marine","RGB",21,1.61912104857363
+"467","Biorobot","Marine","RGB",2,0.15420200462606
+"468","ROVs/AUVs","Marine","RGB",137,10.5628373168851
+"470","Drone","Rivers/Streams","RGB",75,5.78257517347726
+"472","Other","Rivers/Streams","RGB",1,0.0771010023130301
+"474","ROVs/AUVs","Rivers/Streams","RGB",2,0.15420200462606
+"476","Drone","Shrub_Grasslands","RGB",111,8.55821125674634
+"478","Other","Shrub_Grasslands","RGB",2,0.15420200462606
+"494","Drone","Deltas/Estuaries/Mangroves","Sampler/Releaser",2,0.15420200462606
+"497","Biorobot","Deltas/Estuaries/Mangroves","Sampler/Releaser",1,0.0771010023130301
+"498","ROVs/AUVs","Deltas/Estuaries/Mangroves","Sampler/Releaser",3,0.23130300693909
+"506","Drone","Forests","Sampler/Releaser",6,0.46260601387818
+"512","Drone","Lakes","Sampler/Releaser",2,0.15420200462606
+"516","ROVs/AUVs","Lakes","Sampler/Releaser",2,0.15420200462606
+"517","Drifter","Marine","Sampler/Releaser",2,0.15420200462606
+"518","Drone","Marine","Sampler/Releaser",4,0.30840400925212
+"520","Other","Marine","Sampler/Releaser",1,0.0771010023130301
+"521","Biorobot","Marine","Sampler/Releaser",1,0.0771010023130301
+"522","ROVs/AUVs","Marine","Sampler/Releaser",31,2.39013107170393
+"524","Drone","Rivers/Streams","Sampler/Releaser",3,0.23130300693909
+"528","ROVs/AUVs","Rivers/Streams","Sampler/Releaser",1,0.0771010023130301
+"530","Drone","Shrub_Grasslands","Sampler/Releaser",2,0.15420200462606
+"546","ROVs/AUVs","Coral reefs","Sonar",2,0.15420200462606
+"549","Glider","Deltas/Estuaries/Mangroves","Sonar",1,0.0771010023130301
+"552","ROVs/AUVs","Deltas/Estuaries/Mangroves","Sonar",1,0.0771010023130301
+"570","ROVs/AUVs","Lakes","Sonar",1,0.0771010023130301
+"572","Drone","Marine","Sonar",1,0.0771010023130301
+"573","Glider","Marine","Sonar",9,0.693909020817271
+"574","Other","Marine","Sonar",5,0.38550501156515
+"576","ROVs/AUVs","Marine","Sonar",24,1.85042405551272
+"582","ROVs/AUVs","Rivers/Streams","Sonar",2,0.15420200462606
