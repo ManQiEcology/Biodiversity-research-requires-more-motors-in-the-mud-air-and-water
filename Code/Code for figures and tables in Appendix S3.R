@@ -1,10 +1,9 @@
 ################################################################################
 #This code will: 
 # 1) plot Fig. 1c,Fig. 3a,b, and Fig 4b with 20% of randomly selected papers;
-# 2) Calculate the percentage of each categry of biomes, taxonomy and countries 
+# 2) Calculate the percentage of each category of biomes, taxonomy and countries 
 #    of the 20% randomly selected paper, then compare the percentage with that 
 #    from all papers;
-# 3) 
 ################################################################################
 #set the library and work directory
 rm (list=ls ())
