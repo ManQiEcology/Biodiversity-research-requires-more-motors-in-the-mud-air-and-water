@@ -1,5 +1,5 @@
 #===============================================================================
-#New version of code for plotting Fig. 2: Allivial plot with"Table2_new.xlsx"
+#Fig. 2: Allivial plot with"Table2.xlsx"
 #===============================================================================
 library(dplyr)
 library(tidytext)
@@ -8,7 +8,7 @@ library(htmlwidgets)
 library(here)
 
 setwd(here())
-df <-read_excel("Data/Table2_new.xlsx")
+df <-read_excel("Data/Table2.xlsx")
 df <- df %>%
   mutate(`Application scenario` = str_replace(`Application scenario` , "^.*?\\bto\\b\\s*", ""))
 df$Payload[which(df$Payload=="Physical/Chemical sensors")]<-"Physical_Chemical sensors"
@@ -64,13 +64,11 @@ for (i in 1:nrow(unique_combinations)) {
 }
 
 
-
-
-#BELOW CODE REFLECTS THE DATA PROCESSING AND OLD VERSION OF CODE NOT USED IN THE FINAL VERSION
+#BELOW CODE REFLECTS THE DATA PROCESSING
 #===============================================================================
-#Code needed to get "Table2_new.xlsx" from DR_relevant.xlsx
+#Code needed to get "Table2.xlsx" from Publications with extracted parameter values.xlsx
 #===============================================================================
-confs_path <- "Data/DR_relevant.xlsx"
+confs_path <- "Data/Publications with extracted parameter values.xlsx"
 confs <- read_excel(confs_path)
 table1<-data.frame(
   "Platform"=confs$Platform_o4_mini,
@@ -126,57 +124,6 @@ table2_output<-collapse_table_by_sensors(table1)
 # Create a new data frame with the count of combinations of Biome and Subdiscipline under each level of Taxonomy
 table2_output$Payload<-as.character(table2_output$Payload)
 table2_output$Payload[which(table2_output$Payload=="Physical/chemical sensor")]<-"Physical/Chemical sensors"
-write_xlsx(table2_output,"Data/Table2_new.xlsx")
+write_xlsx(table2_output,"Data/Table2.xlsx")
 
 
-
-#===============================================================================
-#Old version of code for ploting Fig. 2: Allivial plot
-#===============================================================================
-library(dplyr)
-library(tidytext)
-library(wordcloud2)
-library(htmlwidgets)
-library(here)
-
-setwd(here())
-df <-read_excel("Data/Table 2.xlsx")
-unique_combinations <- df %>%
-  distinct(Payload, Type, Platform)
-
-
-custom_stop_words <- data.frame(
-  word = c("e.g.", "etc.", "e.g"),
-  stringsAsFactors = FALSE
-)
-
-#Combine custom stop words with tidytext stop words
-all_stop_words <- bind_rows(stop_words, custom_stop_words)
-setwd(here::here())
-for (i in 1:nrow(unique_combinations)) {
-  # Filter the data for the current combination
-  payload <- unique_combinations$Payload[i]
-  # Filter the dataset for the specific Payload,Ecosystem, Type combination
-  subset_df <- df %>%
-    filter(Payload == payload) %>%
-    dplyr::select(`Application scenario`, `Frequency`)
-  
-  # Aggregate by Application scenario to handle duplicates (if any)
-  wordcloud_data <- subset_df %>%
-    unnest_tokens(word, `Application scenario`) %>%  # Tokenize application scenarios into words
-    anti_join(all_stop_words, by = "word") %>%           # Remove common stop words
-    uncount(Frequency) %>%                           # Repeat each word based on the Frequency
-    count(word, name = "Frequency")  
-  
-  # Generate the word cloud
-  wordcloud <- wordcloud2(
-    data = wordcloud_data, 
-    size = 0.5, 
-    color = c("#4C9F70", "#8FB339", "#6C757D", "#34626C", "#588C7E"), 
-    backgroundColor = "white"
-  )
-  # Save the word cloud to an HTML file
-  # Each file is named according to the Payload and Ecosystem
-  file_name <- paste0("wordcloud_", payload, ".html")
-  htmlwidgets::saveWidget(wordcloud, file_name, selfcontained = TRUE)
-}

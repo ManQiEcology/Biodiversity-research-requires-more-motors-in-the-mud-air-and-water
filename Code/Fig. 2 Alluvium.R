@@ -142,9 +142,9 @@ dev.off()
 
 
 #===============================================================================
-#generate Table 1 from DR_relevant_with_manual
+#generate Table 1 from Publications with extracted parameter values.xlsx
 #===============================================================================
-confs_path <- "Data/DR_relevant_with_manual.xlsx"
+confs_path <- "Data/Publications with extracted parameter values.xlsx"
 confs <- read_excel(confs_path)
 table1<-data.frame(
   "Platform"=confs$Platform_o4_mini,
@@ -232,4 +232,4 @@ df$Platform[which(df$Platform=="ROV")]<-"ROVs/AUVs"
 df$Platform[which(df$Platform=="Robot")]<-"Biorobot"
 df$Payload<-as.character(df$Payload)
 df$Payload[which(df$Payload=="Physical/chemical sensor")]<-"Physical/Chemical sensors"
-write.csv(df,"Data/Table1_new.csv")
+write.csv(df,"Data/Table1.csv")

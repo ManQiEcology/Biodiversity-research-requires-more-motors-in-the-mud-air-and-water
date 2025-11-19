@@ -5,8 +5,8 @@ setwd(here::here())
 library(fields)
 
 library(readxl)
-robots<-read_excel("Data/Robots Jan 18.xlsx")
-drones<-read_excel("Data/Drones Jan 18.xlsx")
+robots<-read_excel("Data/Publications of Robots_Jan 18.xlsx")
+drones<-read_excel("Data/Publications of Drones_Jan 18.xlsx")
 col1<- rgb(108, 166, 205, max = 255, alpha = 125, names = "skyblue50")
 col2<- rgb(34, 139, 34, max = 255, alpha = 125, names = "forestgreen_50")
 

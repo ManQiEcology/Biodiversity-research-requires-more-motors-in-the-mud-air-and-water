@@ -18,13 +18,13 @@ library(ggplot2)
 library(ggstream)
 
 #load the 20% randomly selected paper
-twenty_percent_paper<-read_excel("Data/Confs_DR_new.xlsx")
+twenty_percent_paper<-read_excel("Data/Dataset for confusion table of accuracy.xlsx")
 robots_20<-subset(twenty_percent_paper,Instrument=="Robots")
 drones_20<-subset(twenty_percent_paper,Instrument=="Drones")
 
 #load the full pool of papers
-robots<-read_excel("Data/Robots Jan 18.xlsx")
-drones<-read_excel("Data/Drones Jan 18.xlsx")
+robots<-read_excel("Data/Publications of Robots_Jan 18.xlsx")
+drones<-read_excel("Data/Publications of Drones_Jan 18.xlsx")
 
 #-------------------------------------------------------------------------------
 #plot Fig. 1c with 20% selected paper

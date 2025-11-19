@@ -30,7 +30,7 @@ setwd(here::here())
 # --------------------------
 
 
-dat_path <- "Data/Popularity heteriogeneity analysis.xlsx"
+dat_path <- "Data/DR Popularity vs Country Socialeconomics.xlsx"
 sheet_name <- "Sheet1"  # change if different
 
 raw <- read_excel(dat_path, sheet = sheet_name)

@@ -17,7 +17,7 @@ setwd(here())
 ################################################################################
 #Analyze the 20% paper to generate confusion table
 ################################################################################
-Confs_DR<-read_excel("Data/Confs_DR_new.xlsx")
+Confs_DR<-read_excel("Data/Dataset for confusion table of accuracy.xlsx")
 setwd(paste(here(),"Result/",sep=""))
 ###################################################
 #Biome
@@ -316,10 +316,10 @@ App_scenr_accuracy<-sum(Confs_DR$`Application scenario check (1-consistant, 0-no
 App_scenr_accuracy
 
 #==============================================================================
-#CODE TO SELECT THE 20% PAPERS FROM THE FULL POOL: DR_relevant.xlsx
+#CODE TO SELECT THE 20% PAPERS FROM THE FULL POOL: Publications with extracted parameter values.xlsx
 #==============================================================================
 #select relevant 
-DR<-read_excel("Data/DR_relevant.xlsx")
+DR<-read_excel("Data/Publications with extracted parameter values.xlsx")
 # Set seed for reproducibility
 set.seed(123)
 #randomly select 20% papers
