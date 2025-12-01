@@ -1,16 +1,16 @@
 ################################################################################
 #This is the R code that was used by the paper
-#——Biodiversity research requires more motors in the mud, air and water
-#to extract various information from the abstract of scientific literature reporting 
+#——Biodiversity research requires more motors in air, water, and on land
+#to extract various information (country, ecosystem, taxonomy, spatial scale) 
+#from the abstract of scientific literature reporting 
 #application of drones and robots in biodiversity research
 ################################################################################
-
-rm (list=ls ())
-setwd("E:/drone and robots")
-
+library(here)
 library(readxl)
-robots<-read_excel("robots-Nov 25.xls",sheet = "variables") #input your own raw dataset
-drones<-read_excel("drones-Nov 25.xlsx", sheet = "variables") #input your own raw dataset
+
+setwd<-here()
+robots<-read_excel("Data/robots-Nov 25.xls",sheet = "variables") #input your own raw dataset
+drones<-read_excel("Data/drones-Nov 25.xlsx", sheet = "variables") #input your own raw dataset
 
 
 #####################################################
